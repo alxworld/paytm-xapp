@@ -11,7 +11,9 @@
   "description": "",
   "dependencies": {
     "@prisma/client": "^5.19.0",
-    "@repo/db": "file:",
-    "db": "file:"
+    "@repo/db": "file:"
+  },
+  "exports": {
+    "./client": "./index.ts"
   }
 }
